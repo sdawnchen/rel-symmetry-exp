@@ -144,7 +144,6 @@ bt_type_inds = np.array(bt_type_inds)
 # Flag indicating whether the chosen stimuli are valid
 invalid_stim = True
 
-
 while invalid_stim:
 
     print 'Choosing stimuli for the experiment...'
