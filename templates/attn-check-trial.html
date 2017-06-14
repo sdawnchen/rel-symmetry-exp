@@ -1,0 +1,39 @@
+<div id="container-exp">
+	<div id="trial-content-wrapper">
+		<div id="trial-content" align="center">
+			<p>This question should be easy. Look at this word:</p>
+			<br/>
+			<p id="word1"></p>
+			<br/>
+			<div class="initially-hidden">
+				<p>Is the following word the same word or a different word? Please use only 7 or 1 for this question.</p>
+				<br/>
+				<p id="word2"></p>
+				<br/>
+				<br/>
+			    <input id="rating-bar" type="text"
+			    	data-slider-id="sim-rating-bar"
+			        data-slider-ticks="[1, 2, 3, 4, 5, 6, 7]"
+			        data-slider-ticks-labels='["1<br/>different<br/>word", "2", "3", "4", "5", "6", "7<br/>same<br/>word"]'
+			        data-slider-min="1"
+			        data-slider-max="7"
+			        data-slider-step="1"
+			        data-slider-tooltip="hide" />
+			    <br/>
+			    <br/>
+				<button type="button" id="submit" value="submit" class="btn btn-primary btn-lg continue" style="margin: 0 auto;">
+			   		Submit</button>
+		   	</div>
+		</div>
+	</div>
+
+	<div id="container-progress" align="center">
+	   	<p>Completion Progress</p>
+	   	<div class="progress">
+	   		<div class="progress-bar" id="progress-bar" role="progressbar" aria-valuenow="0"
+	   		aria-valuemin="0" aria-valuemax="100" style="width:0%">
+	   			<span class="sr-only" id="progress-bar-text">0% Complete</span>
+			</div>
+		</div>
+	</div>
+</div>
