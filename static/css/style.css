@@ -4,13 +4,13 @@ html {
 }
 
 body {
-    height: 100%;
-    padding:0px;
-    margin: 0px;
-    background-color: white;
-    color: black;
-    font-weight: 300; 
-    font-size: 18px;
+  height: 100%;
+  padding:0px;
+  margin: 0px;
+  background-color: white;
+  color: black;
+  font-weight: 300; 
+  font-size: 18px;
 }
 
 
@@ -30,18 +30,18 @@ strong {
 
 /* these are all the same for now, but easy to modify individually */
 #container-hit-info, #container-error, #container-consent, #container-instructions, #container-questionnaire {
-    max-width: 900px;
-    margin: auto;
-    padding: 3%;
-    background: white;
+  max-width: 900px;
+  margin: auto;
+  padding: 3%;
+  background: white;
 }
 
 /* ad.html  - the ad that people view first */
 #adlogo {
-    float: right;
-    width: 140px;
-    padding: 2px;
-    border: 1px solid #ccc;
+  float: right;
+  width: 140px;
+  padding: 2px;
+  border: 1px solid #ccc;
 }
 
 #query {
