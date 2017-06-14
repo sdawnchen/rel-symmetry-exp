@@ -40,7 +40,6 @@ var instructionPages = [ // add as a list as many pages as you like
 
 
 function RelSimSymmetryExp() {
-    condition = 17;
     var comparisons = allComps[condition];
     comparisons = _.shuffle(comparisons);
 
