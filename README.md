@@ -9,7 +9,7 @@ Here is an example trial:
 
 ![Example relational symmetry trial](https://github.com/sdawnchen/rel-symmetry-exp/blob/master/screenshots/trial.png)
 
-The `screenshots` folder also contains screenshots of the instruction pages.
+Note that the 600 ms delay before the appearance of the second word pair has already passed in this example. The `screenshots` folder also contains screenshots of the instruction pages.
 
 
 # Stimuli
