@@ -12,7 +12,7 @@ Here is an example trial:
 Note that the 600 ms delay before the appearance of the second word pair has already passed in this example. The `screenshots` folder also contains screenshots of the instruction pages.
 
 
-# Stimuli
+# Stimuli Details
 
 The stimuli come from the [SemEval-2012 Task 2 dataset](https://sites.google.com/site/semeval2012task2/), as described in the paper. The included `get_stimuli.py` will create new random stimuli for the experiment from the SemEval dataset and save them in the file `static/js/SemEval-stimuli.js`. After randomly selecting 1,000 relational similarity stimuli as described in the paper, the code creates 20 random subsets of them so that each participant only has to rate 50 stimuli (under certain constraints, such as a participant never seeing both the forward and backward directions of a comparison) and each comparison is rated a roughly equal number of times. Each participant is randomly assigned to one of the 20 subsets.
 
